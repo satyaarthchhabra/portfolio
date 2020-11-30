@@ -16,7 +16,7 @@ const socialIcons= [
       },
       {
         image: "fa-newspaper",
-        url: "https://github.com/satyaarthchhabra",
+        url: "https://drive.google.com/file/d/1OHUwnbEWGAAlJ3sNHvOL6Qyn60Lsz65s/view?usp=sharing",
       },
       {
         image: "fa-linkedin",
