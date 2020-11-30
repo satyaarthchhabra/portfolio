@@ -61,7 +61,7 @@ const projectData = [
             "Map representations for cases",
             "Graph representations for cases",
             "Each Country alone representation also available",
-            
+
         ],
         techStacks: [
             "react",
@@ -77,6 +77,7 @@ const projectData = [
         videoId: "Kkd8v80SsOg"
     },
     {
+
         heading: "Meme Wala",
         overview: "this site is built under react and hosted on Netlify . the main aim of this site is to help all the memers who are finding problems with creating meme.This website contain 100s of meme template which you can use to create your own meme ",
         features: [
@@ -84,7 +85,7 @@ const projectData = [
             "easy process",
             "fast functionality",
             "download functionality available ",
-            
+
         ],
         techStacks: [
             "react",
@@ -92,14 +93,13 @@ const projectData = [
             "axios",
             "react-bootstrap",
             "bootstrap",
-            "numeral",
-            "react-charjs-2",
         ],
         liveSiteURL: 'https://meme-wala.netlify.app',
         sourceCodeURL: "https://github.com/satyaarthchhabra/meme-wala/",
         videoId: "ZODh7sdOOfI"
     },
     {
+
         heading: "Image to text converter",
         overview: "this site is built under react and hosted on Netlify . the main aim of this site is to help all the people who are trying to convert images to text.This website first host your photo to the servers,then the link of the photo is transfered to an api service which gives text in return ",
         features: [
@@ -111,9 +111,9 @@ const projectData = [
             "react",
             "react-router-dom",
             "axios",
-            
+
             "tessaract.js",
-            
+
         ],
         liveSiteURL: 'https://satya-img-2-text.netlify.app',
         sourceCodeURL: "https://github.com/satyaarthchhabra/img-2-text-converter",
@@ -121,7 +121,7 @@ const projectData = [
     },
     {
         heading: "The Movie App",
-        overview: "this site is built under react and hosted on Netlify . This site is for the People who want to find movies and mmovie related data ",
+        overview: "this site is built under react and hosted on Netlify . This site is for the People who want to find movies and movie related data ",
         features: [
             "search functionality",
             "data of aprox all  the movies in th world available",
@@ -135,9 +135,9 @@ const projectData = [
             "axios",
             "fontawesome",
             "styled components",
-            
+
         ],
-        liveSiteURL: 'https://amazon-clone-satya.netlify.app/',
+        liveSiteURL: 'https://the-movie-app-satya.netlify.app/',
         sourceCodeURL: "https://github.com/satyaarthchhabra/the-movie-app/",
         videoId: "aBH9KYSQro8"
     },

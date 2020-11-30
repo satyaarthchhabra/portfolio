@@ -23,7 +23,7 @@ const AboutMe = () => {
             <h2 className="display-4 mb-5 text-center">
             {`<About me 👨🏻‍🎓 />`}
             </h2>
-            <p className="lead text-center">I am  Satyaarth Chhabra. I will be a graduate of 2023 from Noida Institute of Engeeniering and Technology at Greater Noida with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering.</p>
+            <p className="lead text-center">I am  Satyaarth Chhabra. I will be a graduate of 2023 from Noida Institute of Engineering and Technology at Greater Noida with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering.</p>
             
               <p className="lead text-center">
                 <a
