@@ -25,7 +25,7 @@ const projectData = [
             "uuid",
             "toastify",
         ],
-        liveSiteURL: 'https://satya-netflix-clone.netlify.app',
+        liveSiteURL: 'https://satya-amazon-clone.netlify.app',
         sourceCodeURL: "https://github.com/satyaarthchhabra/amazon-clone-firebase",
         videoId: "MthDpsxcDGc"
     },
