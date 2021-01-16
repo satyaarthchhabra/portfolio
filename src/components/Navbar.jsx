@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useScrollPosition } from "../hooks/useScrollPosition";
 import useResizeObserver from "../hooks/useResizeObserver";
-import {Navbar,Nav} from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
 
 
 
@@ -37,48 +37,48 @@ const Navigation = React.forwardRef((props, ref) => {
         }`}
       expand="lg"
     >
-      <Navbar.Brand className="brand" href={process.env.PUBLIC_URL + "/#home"}>
-        {`<Satyaarth😉/>`}
-      </Navbar.Brand>
+      <Navbar.Brand className="brand text-new-style-navbar" href={process.env.PUBLIC_URL + "/#home"}>
+        Satyaarth 
+        </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggler" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
           <Nav.Link
-            className="nav-link lead"
+            className="nav-link lead font-weight-bolder nav-link-style "
             href={process.env.PUBLIC_URL + "/#projects"}
           >
             Projects
             </Nav.Link>
           <Nav.Link
-            className="nav-link lead"
+            className="nav-link lead font-weight-bolder nav-link-style"
             href="https://drive.google.com/file/d/1OHUwnbEWGAAlJ3sNHvOL6Qyn60Lsz65s/view?usp=sharing"
             target="_blank"
             rel="noreferrer noopener"
           >
             Resume
           </Nav.Link>
-   
-            <Nav.Link
-              className="nav-link lead"
-              href={process.env.PUBLIC_URL + "/#aboutme"}
-            >
-              About
+
+          <Nav.Link
+            className="nav-link lead font-weight-bolder nav-link-style"
+            href={process.env.PUBLIC_URL + "/#aboutme"}
+          >
+            About
             </Nav.Link>
-   
-          
-            <Nav.Link
-              className="nav-link lead"
-              href={process.env.PUBLIC_URL + "/#skills"}
-            >
-              Skills
+
+
+          <Nav.Link
+            className="nav-link lead font-weight-bolder nav-link-style"
+            href={process.env.PUBLIC_URL + "/#skills"}
+          >
+            Skills
             </Nav.Link>
-            <Nav.Link
-              className="nav-link lead"
-              href={process.env.PUBLIC_URL + "/#contact"}
-            >
-Get In Touch
+          <Nav.Link
+            className="nav-link lead font-weight-bolder nav-link-style"
+            href={process.env.PUBLIC_URL + "/#contact"}
+          >
+            Get In Touch
             </Nav.Link>
-          
+
         </Nav>
       </Navbar.Collapse>
     </Navbar>

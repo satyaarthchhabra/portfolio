@@ -8,10 +8,9 @@ const AboutMe = () => {
       <div className="container container-fluid">
         <div className="row">
           <div className="col-5 d-none d-lg-block align-self-center">
-            
               <img
                 className="border border-secondary rounded-circle"
-                src="/assets/scLogo.svg"
+                src="/assets/scPhoto.jpg"
                 alt="profilepicture"
                 width={375}
                 height={375}
@@ -20,8 +19,8 @@ const AboutMe = () => {
           </div>
 
           <div className={`col-lg-7`}>
-            <h2 className="display-4 mb-5 text-center">
-            {`<About me 👨🏻‍🎓 />`}
+            <h2 className=" mb-5 text-center  text-new-style">
+            About Me
             </h2>
             <p className="lead text-center">My name is   Satyaarth Chhabra. I will be a graduate of 2023 from Noida Institute of Engineering and Technology at Greater Noida with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering.</p>
             

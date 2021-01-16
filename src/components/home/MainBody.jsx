@@ -4,7 +4,7 @@ import Typist from "react-typist";
 import { Container, Jumbotron } from "react-bootstrap";
 
 const MainBody = React.forwardRef(
-  ({  sa  }, ref) => {
+  ({    }, ref) => {
 const socialIcons= [
       {
         image: "fa-github",
