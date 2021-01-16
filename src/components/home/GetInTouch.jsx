@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/accessible-emoji */
 import{ init } from 'emailjs-com';
 import React, { useEffect, useState } from "react";
 import emailjs from 'emailjs-com';
@@ -57,7 +58,7 @@ const GetInTouch = () => {
               value={message} onChange={(e) => setMessage(e.target.value)} placeholder="Leave Your Message here 👨🏻‍💻 👩🏻‍💻 " />
           </Form.Group>
           <Form.Text className="text-muted pb-3">
-            We'll try to respond you as soon as possible.😇😇
+            We'll try to respond you as soon as possible.<span role="img"> 😇😇 </span>
     </Form.Text>
           <Button disabled={loading} variant="primary" type="submit" block>
             <Spinner
