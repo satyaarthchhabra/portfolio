@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const useResizeObserver = (ref) => {
   const [dimensions, setDimensions] = React.useState(null);
-  React.useEffect(() => {
+  useEffect(() => {
     const observeTarget = ref.current;
     const resizeObserver = new ResizeObserver((entries) => {
       entries.forEach((entry) => {
