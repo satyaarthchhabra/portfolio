@@ -1,11 +1,11 @@
 /* eslint-disable no-empty-pattern */
-import React from "react";
+import React, { forwardRef } from "react";
 import Typist from "react-typist";
 import { Container, Jumbotron } from "react-bootstrap";
 
-const MainBody = React.forwardRef(
-  ({    }, ref) => {
-const socialIcons= [
+const MainBody = forwardRef(
+  ({ }, ref) => {
+    const socialIcons = [
       {
         image: "fa-github",
         url: "https://github.com/satyaarthchhabra",
@@ -45,7 +45,7 @@ const socialIcons= [
           </h1>
           <Typist className="lead display-3" cursor={{ show: false }}>
             {" "}
-            🤩 Web Developer 😎 
+            Web Developer
           </Typist>
           <Typist className="lead typist" cursor={{ show: false }}>
             {" "}
@@ -59,7 +59,7 @@ const socialIcons= [
                 rel="noopener noreferrer"
                 href={icon.url}
               >
-                <i className={` ${(icon.image==="fa-newspaper"||icon.image==="fa-at")? "fas":"fab"} ${icon.image}  fa-3x socialicons`} />
+                <i className={` ${(icon.image === "fa-newspaper" || icon.image === "fa-at") ? "fas" : "fab"} ${icon.image}  fa-3x socialicons`} />
               </a>
             ))}
           </div>

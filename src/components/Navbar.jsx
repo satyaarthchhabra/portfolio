@@ -1,15 +1,15 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, forwardRef, useRef } from "react";
 import { useScrollPosition } from "../hooks/useScrollPosition";
 import useResizeObserver from "../hooks/useResizeObserver";
 import { Navbar, Nav } from "react-bootstrap";
 
 
 
-const Navigation = React.forwardRef((props, ref) => {
+const Navigation = forwardRef((props, ref) => {
 
   const [isTop, setIsTop] = useState(true);
   const [scrollPosition, setScrollPosition] = useState(0);
-  const navbarMenuRef = React.useRef();
+  const navbarMenuRef = useRef();
   const navbarDimensions = useResizeObserver(navbarMenuRef);
   const navBottom = navbarDimensions ? navbarDimensions.bottom : 0;
   useScrollPosition(
@@ -38,8 +38,8 @@ const Navigation = React.forwardRef((props, ref) => {
       expand="lg"
     >
       <Navbar.Brand className="brand text-new-style-navbar" href={process.env.PUBLIC_URL + "/#home"}>
-        Satyaarth 
-        </Navbar.Brand>
+        Satyaarth
+      </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggler" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
@@ -48,7 +48,7 @@ const Navigation = React.forwardRef((props, ref) => {
             href={process.env.PUBLIC_URL + "/#projects"}
           >
             Projects
-            </Nav.Link>
+          </Nav.Link>
           <Nav.Link
             className="nav-link lead font-weight-bolder nav-link-style"
             href="https://drive.google.com/file/d/1OHUwnbEWGAAlJ3sNHvOL6Qyn60Lsz65s/view?usp=sharing"
@@ -63,7 +63,7 @@ const Navigation = React.forwardRef((props, ref) => {
             href={process.env.PUBLIC_URL + "/#aboutme"}
           >
             About
-            </Nav.Link>
+          </Nav.Link>
 
 
           <Nav.Link
@@ -71,13 +71,13 @@ const Navigation = React.forwardRef((props, ref) => {
             href={process.env.PUBLIC_URL + "/#skills"}
           >
             Skills
-            </Nav.Link>
+          </Nav.Link>
           <Nav.Link
             className="nav-link lead font-weight-bolder nav-link-style"
             href={process.env.PUBLIC_URL + "/#contact"}
           >
             Get In Touch
-            </Nav.Link>
+          </Nav.Link>
 
         </Nav>
       </Navbar.Collapse>
