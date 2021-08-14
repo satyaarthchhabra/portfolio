@@ -59,7 +59,7 @@ const MainBody = forwardRef(
                 rel="noopener noreferrer"
                 href={icon.url}
               >
-                <i className={` ${(icon.image === "fa-newspaper" || icon.image === "fa-at") ? "fas" : "fab"} ${icon.image}  fa-3x socialicons`} />
+                <i className={`  ${(icon.image === "fa-newspaper" || icon.image === "fa-at") ? "fas" : "fab"} ${icon.image}  fa-3x socialicons`} />
               </a>
             ))}
           </div>

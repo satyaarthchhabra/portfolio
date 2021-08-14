@@ -57,6 +57,14 @@ const Navigation = forwardRef((props, ref) => {
           >
             Resume
           </Nav.Link>
+          <Nav.Link
+            className="nav-link lead font-weight-bolder nav-link-style"
+            href="https://satyarthchhabra18.medium.com/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            Blogs
+          </Nav.Link>
 
           <Nav.Link
             className="nav-link lead font-weight-bolder nav-link-style"
