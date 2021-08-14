@@ -145,7 +145,7 @@ code {
   text-align: center;
 }
 .skills-card {
-  // width: 15rem;
+  width: 14rem;
   border: none;
   // background-color: red;
 }
@@ -158,6 +158,8 @@ code {
   width: 10rem;
   object-fit: contain;
   margin: 0 auto;
+  max-height: 10rem;
+  min-height: 10rem;
 }
 .progress {
   transform-origin: left;
@@ -183,5 +185,8 @@ code {
   }
   .abt-me-btn {
     margin: 2rem 1rem !important;
+  }
+  .name-text {
+    font-size: 4.1rem !important;
   }
 }

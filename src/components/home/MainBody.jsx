@@ -40,7 +40,7 @@ const MainBody = forwardRef(
       >
         <div id="stars"></div>
         <Container className="text-center hero-container">
-          <h1 ref={ref} className="display-1">
+          <h1 ref={ref} className="display-1 name-text">
             Satyaarth Chhabra
           </h1>
           <Typist className="lead display-3" cursor={{ show: false }}>

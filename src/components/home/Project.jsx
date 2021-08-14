@@ -7,9 +7,9 @@ const Project = () => {
   return (
     <Jumbotron fluid id="projects" className="bg-light m-0">
       <Container className="">
-        <h2 className=" mb-5 text-center  text-new-style">
+        <h2 className=" mb-5 text-center name-text  text-new-style">
           Projects
-            </h2>
+        </h2>
         <Row>
           {
             projectData?.map(project => (
