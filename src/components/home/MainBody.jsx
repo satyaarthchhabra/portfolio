@@ -39,7 +39,7 @@ const MainBody = forwardRef(
         className="title bg-transparent bgstyle text-light min-vh-100 d-flex align-content-center align-items-center flex-wrap m-0"
       >
         <div id="stars"></div>
-        <Container className="text-center">
+        <Container className="text-center hero-container">
           <h1 ref={ref} className="display-1">
             Satyaarth Chhabra
           </h1>
@@ -51,7 +51,7 @@ const MainBody = forwardRef(
             {" "}
             Passionate about changing the world with technology.
           </Typist>
-          <div className="p-5">
+          <div className="p-5 social-icons-container">
             {socialIcons.map((icon, index) => (
               <a
                 key={`social-icon-${index}`}
@@ -64,12 +64,12 @@ const MainBody = forwardRef(
             ))}
           </div>
           <a
-            className="btn btn-outline-light btn-lg "
+            className="btn btn-outline-light abt-me-btn btn-lg m-1 "
             href="#aboutme"
             role="button"
             aria-label="Learn more about me"
           >
-            More about me
+            More About Me
           </a>
         </Container>
       </Jumbotron>
