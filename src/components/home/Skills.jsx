@@ -64,7 +64,7 @@ function Skills() {
   ]
   return (
     <Jumbotron fluid className="bg-white m-0" id="skills">
-      <Container className="py-4  ">
+      <Container className="py-4 skills-main-container">
         <h2 className=" mb-5 text-center name-text  text-new-style">
           Skills
         </h2>
@@ -73,9 +73,9 @@ function Skills() {
         <div className="skills-container mx-auto d-flex justify-content-between">
           {
             skills.map(skill => (
-              <div key={skill.name} className="col-5  col-md-4 mx-auto">
+              <div key={skill.name} className="col-4 col-md-4 mx-auto">
                 <Card className="skills-card mx-auto my-2 ">
-                  <Card.Img variant="top" className="skills-img img-fluid rounded-circle" src={`/assets/skills/${skill.path}`} alt={skill.name} />
+                  <Card.Img variant="top" className="skills-img img-fluid " src={`/assets/skills/${skill.path}`} alt={skill.name} />
                   <Card.Body>
                     <Card.Title className="text-center text-capitalize" >{skill.name}</Card.Title>
                   </Card.Body>

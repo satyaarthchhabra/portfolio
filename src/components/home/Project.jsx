@@ -11,12 +11,12 @@ const Project = () => {
           Projects
         </h2>
         <Row>
-          {
+          {/* {
             projectData?.map(project => (
 
               <ProjectCard heading={project.heading} techStacks={project.techStacks} features={project.features} overview={project.overview} liveSiteURL={project.liveSiteURL} videoId={project.videoId} sourceCodeURL={project.sourceCodeURL} />
             ))
-          }
+          } */}
         </Row>
       </Container>
     </Jumbotron>

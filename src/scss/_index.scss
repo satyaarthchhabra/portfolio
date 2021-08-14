@@ -181,10 +181,24 @@ code {
   .social-icons-container {
     padding: 0rem !important;
   }
+  .navbar-transparent {
+    padding: 0;
+    width: 100vw;
+  }
   .abt-me-btn {
     margin: 2rem 1rem !important;
   }
   .name-text {
     font-size: 4.1rem !important;
+  }
+  .skills-card {
+    width: auto !important;
+  }
+
+  .card-body {
+    padding: 0 !important;
+  }
+  .skills-main-container {
+    padding: 0 0 !important;
   }
 }
