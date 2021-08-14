@@ -51,7 +51,7 @@ const MainBody = forwardRef(
             {" "}
             Passionate about changing the world with technology.
           </Typist>
-          <div className="p-5 social-icons-container">
+          <div className="px-5 py-3 social-icons-container">
             {socialIcons.map((icon, index) => (
               <a
                 key={`social-icon-${index}`}
