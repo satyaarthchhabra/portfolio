@@ -13,7 +13,7 @@ const Project = () => {
           Projects
         </h2>
 
-        <Row className="project__container justify-content-between mx-auto">
+        <Row className="project__container justify-content-between align-items-center mx-auto">
 
 
 

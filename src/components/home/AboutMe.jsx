@@ -9,7 +9,7 @@ const AboutMe = () => {
         <div className="row">
           <div className="col-5 d-none d-lg-block align-self-center">
             <img
-              className="border border-secondary rounded-circle"
+              className="img-abt-me rounded-circle"
               src="/assets/scPhoto.jpg"
               alt="profilepicture"
               width={375}
