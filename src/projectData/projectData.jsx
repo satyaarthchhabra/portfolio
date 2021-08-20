@@ -1,7 +1,7 @@
 const projectData = [
     {
         heading: "Amazon Clone",
-        overview: "In 2019,Amazon reported a net income of 11.59 billion U.S. and its major part comes from its e-commerce site . so i tried to copy some of its functionality with help of react and firebase as a backend service .",
+        overview: "ecommerce site with all neccessary features like admin dashboard and seller dashboard having backed with firebase and payments through stripe",
         features: [
             "multi paged website",
             "responsive design",
@@ -31,7 +31,7 @@ const projectData = [
     },
     {
         heading: "Netflix Clone",
-        overview: "this site is built under react and hosted on Netlify . As i gained proficiency in react, and i was thinking of making a good website but i dont want to go in the hastle of designing its ui and i am amazed by the Netflix ui ,so i decided to make a clone of it ",
+        overview: "Built with react, this site is an media streaming site with backend in firebase  ",
         features: [
             "multi paged website",
             "responsive design",
@@ -55,7 +55,7 @@ const projectData = [
     },
     {
         heading: "World Corona Monitor",
-        overview: "this site is built under react and hosted on Netlify . the main aim of this site is to track corona virus cases around the world . Our sincere thanks goes to disease.sh website for providing there api services ",
+        overview: "Displays covid-19 status in different countries through maps,graphs and lists",
         features: [
             "Daily covid cases",
             "Map representations for cases",
@@ -79,7 +79,7 @@ const projectData = [
     {
 
         heading: "Meme Wala",
-        overview: "this site is built under react and hosted on Netlify . the main aim of this site is to help all the memers who are finding problems with creating meme.This website contain 100s of meme template which you can use to create your own meme ",
+        overview: "It contains over 150 meme template and can help you to create meme",
         features: [
             "aprox 200 meme template",
             "easy process",
@@ -101,7 +101,7 @@ const projectData = [
     {
 
         heading: "Image to text converter",
-        overview: "this site is built under react and hosted on Netlify . the main aim of this site is to help all the people who are trying to convert images to text.This website first host your photo to the servers,then the link of the photo is transfered to an api service which gives text in return ",
+        overview: "It converts the image to text with tenserflow library",
         features: [
             "convert image to text",
             "innovative",
@@ -121,7 +121,7 @@ const projectData = [
     },
     {
         heading: "The Movie App",
-        overview: "this site is built under react and hosted on Netlify . This site is for the People who want to find movies and movie related data ",
+        overview: "It displays movie data and helps to find relevant information",
         features: [
             "search functionality",
             "data of aprox all  the movies in th world available",
