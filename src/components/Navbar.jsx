@@ -3,10 +3,7 @@ import { useScrollPosition } from "../hooks/useScrollPosition";
 import useResizeObserver from "../hooks/useResizeObserver";
 import { Navbar, Nav } from "react-bootstrap";
 
-
-
 const Navigation = forwardRef((props, ref) => {
-
   const [isTop, setIsTop] = useState(true);
   const [scrollPosition, setScrollPosition] = useState(0);
   const navbarMenuRef = useRef();
@@ -33,11 +30,15 @@ const Navigation = forwardRef((props, ref) => {
   return (
     <Navbar
       ref={navbarMenuRef}
-      className={` fixed-top  ${!isTop ? "navbar-white" : "navbar-transparent"
-        }`}
+      className={` fixed-top  ${
+        !isTop ? "navbar-white" : "navbar-transparent"
+      }`}
       expand="lg"
     >
-      <Navbar.Brand className="brand text-new-style-navbar" href={process.env.PUBLIC_URL + "/#home"}>
+      <Navbar.Brand
+        className="brand text-new-style-navbar"
+        href={process.env.PUBLIC_URL + "/#home"}
+      >
         Satyaarth
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggler" />
@@ -51,7 +52,7 @@ const Navigation = forwardRef((props, ref) => {
           </Nav.Link>
           <Nav.Link
             className="nav-link lead font-weight-bolder nav-link-style"
-            href="https://drive.google.com/file/d/1OHUwnbEWGAAlJ3sNHvOL6Qyn60Lsz65s/view?usp=sharing"
+            href="https://drive.google.com/file/d/1r6xTpWfEKnfPbJigOMfqsTdECdO3FWh9/view?usp=sharing"
             target="_blank"
             rel="noreferrer noopener"
           >
@@ -73,7 +74,6 @@ const Navigation = forwardRef((props, ref) => {
             About
           </Nav.Link>
 
-
           <Nav.Link
             className="nav-link lead font-weight-bolder nav-link-style"
             href={process.env.PUBLIC_URL + "/#skills"}
@@ -86,7 +86,6 @@ const Navigation = forwardRef((props, ref) => {
           >
             Get In Touch
           </Nav.Link>
-
         </Nav>
       </Navbar.Collapse>
     </Navbar>
