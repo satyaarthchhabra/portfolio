@@ -30,7 +30,7 @@ const AboutMe = () => {
             <p className="lead text-center">
               <a
                 className="btn btn-outline-dark btn-lg"
-                href="https://drive.google.com/file/d/1DseXVru6Z2jCedXg8QQSozPZ8srSUum9/view?usp=sharing"
+                href="https://drive.google.com/file/d/1eHkn0eNrq-Maw7bJOTDB7fH9XFGft_g8/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer noopener"
                 role="button"
