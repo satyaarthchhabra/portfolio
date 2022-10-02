@@ -19,7 +19,7 @@ const MainBody = forwardRef(({}, ref) => {
     },
     {
       image: "fa-newspaper",
-      url: "https://drive.google.com/file/d/1r6xTpWfEKnfPbJigOMfqsTdECdO3FWh9/view?usp=sharing",
+      url: "https://drive.google.com/file/d/1DseXVru6Z2jCedXg8QQSozPZ8srSUum9/view?usp=sharing",
     },
     {
       image: "fa-linkedin",

@@ -52,7 +52,7 @@ const Navigation = forwardRef((props, ref) => {
           </Nav.Link>
           <Nav.Link
             className="nav-link lead font-weight-bolder nav-link-style"
-            href="https://drive.google.com/file/d/1r6xTpWfEKnfPbJigOMfqsTdECdO3FWh9/view?usp=sharing"
+            href="https://drive.google.com/file/d/1DseXVru6Z2jCedXg8QQSozPZ8srSUum9/view?usp=sharing"
             target="_blank"
             rel="noreferrer noopener"
           >
